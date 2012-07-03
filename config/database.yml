@@ -18,7 +18,8 @@ development:
   database: onlinecourse_development
   pool: 5
   username: onlinecourse
-  password:
+  password: 1q2w3e4r
+  host: localhost
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -44,12 +45,14 @@ test:
   database: onlinecourse_test
   pool: 5
   username: onlinecourse
-  password:
-
+  password: 1q2w3e4r
+  host: localhost
+   
 production:
   adapter: postgresql
   encoding: unicode
   database: onlinecourse_production
   pool: 5
   username: onlinecourse
-  password:
+  password: 1q2w3e4r
+  host: localhost

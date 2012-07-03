@@ -5,8 +5,6 @@ gem 'rails', '3.2.6'
 gem 'devise', '~>2.1.0'
 gem 'cancan', '~>1.6.7'
 gem 'pg', '~> 0.14.0'
-gem 'nsisam'
-gem 'nsicloudooo'
 gem 'delorean'
 gem 'inherited_resources', '~> 1.3.0'
 gem 'haml', '~> 3.1.4'
@@ -23,10 +21,9 @@ gem 'jquery-rails'
 gem 'rabl'
 gem 'gon'
 gem 'multi_json', '~>1.3.0'
-gem 'nsi-abntformat', '~>1.0.4'
-gem 'odt2html'
 gem 'mail_form'
 gem 'erb2haml'
+gem 'brazilian-rails', '~>3.1.0'
 gem 'simple-navigation',
   github: 'rodrigomanhaes/simple-navigation',
   branch: 'preceding_text'
@@ -55,7 +52,6 @@ group :test, :development do
   gem 'capistrano'
   gem 'tire-mock_client', github: 'natanael-araujo/tire-mock_client'
   gem 'spork-rails', '~> 3.2.0'
-  gem 'debugger'
   gem 'simplecov', require: false
   gem 'simplecov-rcov', require: false
   gem 'zippy'
