@@ -1,4 +1,6 @@
 Onlinecourse::Application.routes.draw do
+  resources :tipo_telefones
+
   resources :tipo_enderecos
 
   # The priority is based upon order of creation:
