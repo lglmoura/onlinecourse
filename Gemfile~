@@ -56,5 +56,4 @@ group :test, :development do
   gem 'simplecov-rcov', require: false
   gem 'zippy'
   gem 'toothbrush'
- gem 'database_cleaner'
 end

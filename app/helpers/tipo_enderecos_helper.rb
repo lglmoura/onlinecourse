@@ -1,0 +1,2 @@
+module TipoEnderecosHelper
+end
